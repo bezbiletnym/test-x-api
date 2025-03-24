@@ -28,6 +28,7 @@ CONSUMER_SECRET='evenmorebla999'
 ACCESS_TOKEN='111-blablabla'
 ACCESS_TOKEN_SECRET='bla123bla'
 ```
+You need to get these tokens from your [X Developer Dahsboard](https://developer.x.com/en/portal/dashboard)
 
 ## Run:
 
