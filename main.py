@@ -9,6 +9,7 @@ def get_reset_time_from_headers(headers: dict) -> str:
         reset_time += ' GMT'
     return reset_time
 
+print('Starting script...')
 # Loading .env file
 dotenv.load_dotenv()
 
@@ -41,3 +42,5 @@ except TypeError as err:
     print("Please check .env file")
 except Exception as err:
     print(f"Error: {repr(err)}")
+
+print('My job is done.')
